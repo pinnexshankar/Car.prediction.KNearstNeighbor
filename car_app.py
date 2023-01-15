@@ -2,11 +2,11 @@
 # coding: utf-8
 
 # In[42]:
-
+!pip install sklearn
 
 import streamlit as st
 import pickle
-
+import sklearn
 
 # In[43]:
 

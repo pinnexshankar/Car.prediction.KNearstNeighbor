@@ -12,7 +12,7 @@ import pickle
 
 
 knn=pickle.load(open('Knn_model.pkl','rb'))
-df=pickle.load(open('df.plk','rb'))
+df=pickle.load(open('df.pkl','rb'))
 
 
 # In[44]:

@@ -233,6 +233,6 @@ import pickle
 
 # saving the best model in binary format
 # wb-write binary 
-filename = 'Final_lg_model.sav'
+filename = 'Knn_model.pkl'
 pickle.dump(knn, open(filename, 'wb'))
 

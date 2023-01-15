@@ -13,7 +13,7 @@ import pickle
 # In[53]:
 
 
-knn=pickle.load(open('knn_model.pkl','rb'))
+knn=pickle.load(open('Knn_model.pkl','rb'))
 df=pickle.load(open('df.plk','rb'))
 
 

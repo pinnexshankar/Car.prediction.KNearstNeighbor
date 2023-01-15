@@ -10,10 +10,6 @@ import pickle
 
 # In[56]:
 
-
-get_ipython().system('pip install --upgrade pip --user')
-
-
 # In[53]:
 
 

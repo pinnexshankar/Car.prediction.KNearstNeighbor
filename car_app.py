@@ -6,7 +6,7 @@
 
 import streamlit as st
 import pickle
-from sklearn import * 
+from sklearn.neighbors import KNeighborsRegressor 
 
 # In[64]:
 

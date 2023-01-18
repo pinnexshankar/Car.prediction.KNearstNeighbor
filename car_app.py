@@ -12,8 +12,8 @@ import sklearn
 # In[64]:
 
 
-!pip install scikit-learn==1.1.1 --user
-!pip install streamlit==1.2.0 --user
+pip install scikit-learn==1.1.1 --user
+pip install streamlit==1.2.0 --user
 
 
 # In[53]:

@@ -13,10 +13,14 @@ warnings.filterwarnings('ignore')
 
 
 # In[53]:
+st.download_button(
+    "Download Model",
+    data=pickle.dumps(clf),
+    file_name="model.pkl",
+)
 
-
-knn=pickle.load(open('Knn_model.pkl','rb'))
-df=pickle.load(open('df.plk','rb'))
+knn=pickle.loads(open('Knn_model.pkl','rb'))
+df=pickle.loads(open('df.plk','rb'))
 
 
 # In[50]:

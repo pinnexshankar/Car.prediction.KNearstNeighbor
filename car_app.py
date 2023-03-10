@@ -6,7 +6,6 @@
 
 import streamlit as st
 import pickle
-import sklearn
 
 # In[64]:
 

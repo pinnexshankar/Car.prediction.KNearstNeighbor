@@ -6,7 +6,10 @@
 
 import streamlit as st
 import pickle
-
+import sklearn 
+import numpy as np
+import warnings 
+warnings.filterwarnings('ignore')
 # In[64]:
 
 
